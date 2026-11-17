@@ -1,2 +1,3 @@
+# Ninja dependency and build log files
 .ninja_deps
 .ninja_log

@@ -1,0 +1,18 @@
+PASS: Temporary Git repository created
+PASS: .ninja_deps: ignored status
+PASS: .ninja_deps: matching rule is .ninja_deps
+PASS: build/.ninja_deps: ignored status
+PASS: build/.ninja_deps: matching rule is .ninja_deps
+PASS: .ninja_log: ignored status
+PASS: .ninja_log: matching rule is .ninja_log
+PASS: build/.ninja_log: ignored status
+PASS: build/.ninja_log: matching rule is .ninja_log
+PASS: .ninja_deps-backup: ignored status
+PASS: .ninja_log-backup: ignored status
+PASS: keep.ninja_log: ignored status
+PASS: keep.ninja_log: matching rule is !keep.ninja_log
+PASS: Tracked file is not reported as ignored
+PASS: No-index check identifies the matching rule
+PASS: Tracked file appears in Git status
+
+All R46-T003 checks passed.
