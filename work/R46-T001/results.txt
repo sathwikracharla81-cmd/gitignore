@@ -1,0 +1,46 @@
+Task: R46-T001
+
+Template: Dart.gitignore
+
+Git version:
+git version 2.55.0
+
+Python version:
+Python 3.14.7
+
+Test command:
+python3 work/R46-T001/check.py
+
+Test repository:
+/tmp/R46-T001-test
+
+Expected results:
+- 3 positive fixtures ignored with correct patterns and line numbers.
+- 4 negative fixtures not ignored.
+- Git status command completes successfully.
+
+Actual results:
+
+PASS: test-area/project/.dart_tool/config.json -> .dart_tool/ (line 5)
+
+PASS: test-area/project/.packages -> .packages (line 6)
+
+PASS: test-area/project/build/output.txt -> build/ (line 7)
+
+All positive tests passed!
+
+PASS: test-area/project/.dart_tool-file is not ignored
+
+PASS: test-area/project/.packages-backup is not ignored
+
+PASS: test-area/project/build.txt is not ignored
+
+PASS: test-area/near-miss/.dart_tool is not ignored
+
+All negative tests passed!
+
+Git status --porcelain:
+?? .gitignore
+
+Result:
+All 7 fixture checks passed. Git status verification completed successfully.
